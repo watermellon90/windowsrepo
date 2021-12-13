@@ -8,3 +8,13 @@ ms-cumulative-2004-2021-07_x64:
     msiexec: True
     locale: en_US
     reboot: False
+7zip:
+    '21.06':
+        full_name: '7-Zip 21.06 (2021-11-24) for Windows'
+        installer: 'https://www.7-zip.org/a/7z2106-x64.exe'
+        install_flags: '/q'
+        uninstaller: 'msiexec.exe'
+        uninstall_flags: '/qn /x {6E8E85E8-CE4B-4FF5-91F7-04999C9FAE6A} /norestart'
+        msiexec: False
+        locale: en_US
+        reboot: False
